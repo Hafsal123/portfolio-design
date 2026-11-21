@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Hafsal</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="index.html" class="logo">H.</a>
+
+        <nav class="navbar">
+
+            <a href="index.html">Home</a>
+
+            <a href="projects.html">Projects</a>
+
+            <a href="about.html">About</a>
+
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+    </header>
+
+
+    <main class="inner-page">
+
+        <section class="contact-page">
+
+            <p>HAVE A PROJECT IN MIND? ✦</p>
+
+            <h1>LET'S CREATE<br>SOMETHING AMAZING.</h1>
+
+            <p>
+                Tell me about your idea.
+                Let's make something meaningful together.
+            </p>
+
+
+            <form id="contactForm">
+
+                <label for="name">YOUR NAME</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+
+                <label for="email">YOUR EMAIL</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+
+                <label for="subject">PROJECT TYPE</label>
+
+                <select id="subject" required>
+
+                    <option value="">Select project type</option>
+
+                    <option value="Web Design">Web Design</option>
+
+                    <option value="UI/UX Design">UI/UX Design</option>
+
+                    <option value="Branding">Branding</option>
+
+                    <option value="Other">Other</option>
+
+                </select>
+
+
+                <label for="message">YOUR MESSAGE</label>
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Tell me about your project..."
+                    required
+                ></textarea>
+
+
+                <button type="submit" class="outline-btn">
+                    SEND MESSAGE ✦
+                </button>
+
+                <p id="formMessage"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <p>THANK YOU FOR VISITING ✦</p>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
